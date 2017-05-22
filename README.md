@@ -1,0 +1,2 @@
+# UiAutomatorDemo
+UiAutomator use case
