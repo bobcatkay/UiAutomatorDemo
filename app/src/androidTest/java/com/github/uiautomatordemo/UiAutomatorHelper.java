@@ -52,6 +52,14 @@ public abstract class UiAutomatorHelper extends UiAutomatorTestCase {
         return clickSucceed;
     }
 
+    /**
+     * 从UiCollection中随机选择指定子元素并点击
+     *
+     * @param idCollection UiCollection id
+     * @param idChild      Child id
+     * @param index        child index
+     * @return
+     */
     public boolean clickCollectionChild(String idCollection,String idChild,int index){
         boolean clickSucceed = false;
         UiCollection collection = getCollection(idCollection);
